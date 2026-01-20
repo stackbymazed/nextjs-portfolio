@@ -7,6 +7,8 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/MUSHUBO/EduSmart-Application',
         demo: 'https://edu-smart-application.vercel.app',
+        tags: [],
+        image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
     {
         id: 2,
@@ -32,6 +34,8 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/stackbymazed/BhromonBarta',
         demo: 'https://bhromonbarta-6cc68.web.app',
+        tags: [],
+        image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
     {
         id: 3,
@@ -53,6 +57,8 @@ export const projectsData = [
         code: 'https://github.com/stackbymazed/Online-Group-Study-Client',
         role: 'Full Stack Developer',
         demo: 'https://assignment-11-e732e.web.app',
+        tags: [],
+        image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
 ];
 
