@@ -56,6 +56,39 @@ function ProjectCard({ project }) {
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
+          <div className=" mr-2">
+            <div className="ml-4 lg:ml-8 font-mono text-sm space-y-1">
+              <div>
+                <span className="text-white">links</span>
+                <span className="text-gray-400">: </span>
+                <span className="text-gray-400">{'{'}</span>
+              </div>
+
+              {Object.entries(project.links).map(([key, value]) => (
+                <div key={key} className="ml-6">
+                  <span className="text-sky-400">{key}</span>
+                  <span className="text-gray-400">: </span>
+                  <a
+                    href={value}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-400 underline hover:text-emerald-300"
+                  >
+                    '{value}'
+                  </a>
+                  <span className="text-gray-400">,</span>
+                </div>
+              ))}
+
+              <div>
+                <span className="text-gray-400">{'}'}</span>
+              </div>
+            </div>
+
+
+
+          </div>
+
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>

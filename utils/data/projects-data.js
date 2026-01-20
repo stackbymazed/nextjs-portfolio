@@ -5,8 +5,10 @@ export const projectsData = [
         description: "Me and My team built an AI-powered online education platform using OpenAI for intelligent study assistance and personalized learning. The application was developed with Next.js, React, TypeScript, MongoDB, Firebase, and Stripe, with a responsive UI built using TailwindCSS and modern npm libraries.We implemented AI assistants with the latest GPT models, secure authentication with NextAuth and JWT, role-based access control, subscription payments via Stripe, Cron job automation, Cloudinary media handling, and email notifications using Resend.",
         tools: ['NextJs', 'Express', 'MongoDB', 'OpenAI API', 'stripe', 'Node Mailer', 'next-auth', 'firebase', 'react-hook-form'],
         role: 'Full Stack Developer',
-        code: 'https://github.com/MUSHUBO/EduSmart-Application',
-        demo: 'https://edu-smart-application.vercel.app',
+        links: {
+            code: 'https://github.com/MUSHUBO/EduSmart-Application',
+            demo: 'https://edu-smart-application.vercel.app',
+        },
         tags: [],
         image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
@@ -32,8 +34,10 @@ export const projectsData = [
         ],
 
         role: 'Full Stack Developer',
-        code: 'https://github.com/stackbymazed/BhromonBarta',
-        demo: 'https://bhromonbarta-6cc68.web.app',
+        links: {
+            code: 'https://github.com/stackbymazed/BhromonBarta',
+            demo: 'https://bhromonbarta-6cc68.web.app',
+        },
         tags: [],
         image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
@@ -52,11 +56,12 @@ export const projectsData = [
             'Framer Motion',
             'React Datepicker',
             'SweetAlert2'
-        ]
-        ,
-        code: 'https://github.com/stackbymazed/Online-Group-Study-Client',
+        ],
         role: 'Full Stack Developer',
-        demo: 'https://assignment-11-e732e.web.app',
+        links: {
+            code: 'https://github.com/stackbymazed/Online-Group-Study-Client',
+            demo: 'https://assignment-11-e732e.web.app',
+        },
         tags: [],
         image: 'https://i.ibb.co.com/C57hMGyJ/Screenshot-2025-08-12-223640.png',
     },
