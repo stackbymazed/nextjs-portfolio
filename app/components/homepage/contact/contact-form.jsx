@@ -23,7 +23,7 @@ function ContactForm() {
 
   const handleSendMail = async (e) => {
     e.preventDefault();
-
+    // console.log(userInput);
     if (!userInput.email || !userInput.message || !userInput.name) {
       setError({ ...error, required: true });
       return;
@@ -39,7 +39,7 @@ function ContactForm() {
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput
       );
-
+      console.log(res);
       toast.success("Message sent successfully!");
       setUserInput({
         name: "",
