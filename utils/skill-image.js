@@ -85,8 +85,6 @@ import fastapi from '../app/assets/svg/skills/fastapi.svg'
 import express from '../app/assets/svg/skills/express.svg';
 import nodejs from '../app/assets/svg/skills/Node.js_logo.svg.svg';
 
-
-
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {

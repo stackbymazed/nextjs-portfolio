@@ -1,4 +1,4 @@
-<h1 align="center">Developer Portfolio</h1>
+<h1 align="center">Portfolio</h1>
 
 <p align="center">
   <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
@@ -12,12 +12,12 @@
 </p>
 
 <p align="center">
-  <a href="#demo-movie_camera">Demo</a> •
-  <a href="#features-sparkles">Features</a> •
-  <a href="#installation-arrow_down">Installation</a> •
-  <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
-  <a href="#tutorials-wrench">Tutorials</a>
+  <a href="#demo-movie_camera">Demo </a> •
+  <a href="#features-sparkles">Features </a> •
+  <a href="#installation-arrow_down">Installation </a> •
+  <a href="#usage-joystick">Usage </a> •
+  <a href="#deployment-rocket">Deployment </a> •
+  <a href="#tutorials-wrench">Tutorials </a>
 </p>
 
 ---
@@ -35,8 +35,8 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
-    <strong>🚀 View Live Demo</strong>
+  <a href="https://mazed-portfolio.vercel.app" target="_blank">
+    <strong> View Live Demo </strong>
   </a>
 </p>
 
